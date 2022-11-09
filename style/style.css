@@ -78,10 +78,15 @@
 }
 .content{
     text-align: center;
+    width: 40%;
+    height: 40%;
+    border: 2px solid #fff;
+    background-color: #0005;
+    border-radius: 50px;
 }
 .content:hover{
     width: 40%;
-    height: auto;
+    height: 40%;
     background-color: #0009;
 }
     .content h1{
@@ -97,9 +102,8 @@
     border: 2px solid #fff;
     padding: 14px 70px;
     border-radius: 50px;
-    transition: 1s;
+    transition: 0.4s;
 }
 .content a:hover{
-    border: 2px solid black;
-    color: black;
+    background-color: tomato;
 }
