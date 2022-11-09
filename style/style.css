@@ -27,13 +27,13 @@
 }
 @media screen and (min-width: 601px) {
     #nav {
-      font-size: 80px;
+      font-size: 100%;
     }
 }
 
 @media screen and (max-width: 600px) {
     #nav {
-      font-size: 30px;
+      font-size: 100%;
     }
 }
 #nav:hover{
@@ -48,7 +48,7 @@
     background-color: transparent;
     border: 1px solid white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 3vh;
     color: aliceblue;
     border-radius: 50px;
     transition: 0.4s;
