@@ -88,8 +88,8 @@
     width: 45vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-right: 9vw;
-    padding-left: 9vw;
+    padding-right: 7vw;
+    padding-left: 7vw;
     /* height: 40%; */
     border: 2px solid #fff;
     background-color: #0005;
@@ -109,7 +109,7 @@
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    font-size: 24px;
+    font-size: 5vh;
     border: 2px solid #fff;
     padding: 14px 70px;
     border-radius: 50px;
