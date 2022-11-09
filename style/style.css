@@ -27,13 +27,13 @@
 }
 @media screen and (min-width: 601px) {
     #nav {
-      font-size: 80px;
+      font-size: 100%;
     }
 }
 
 @media screen and (max-width: 600px) {
     #nav {
-      font-size: 30px;
+      font-size: 100%;
     }
 }
 #nav:hover{
@@ -48,7 +48,7 @@
     background-color: transparent;
     border: 1px solid white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 3vh;
     color: aliceblue;
     border-radius: 50px;
     transition: 0.4s;
@@ -76,24 +76,32 @@
         height: 100%;
     }
 }
+.margin{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 0;
+}
 .content{
     text-align: center;
-    width: 40%;
-    padding-bottom: 60px;
-    padding-right: 70px;
-    padding-left: 70px;
+    /* vertical-align: top; */
+    /* margin-bottom: 15vh; */
+    width: 45vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
     /* height: 40%; */
     border: 2px solid #fff;
     background-color: #0005;
     border-radius: 50px;
 }
 .content:hover{
-    width: 40%;
+    /* width: 40%; */
     /* height: 40%; */
     background-color: #0009;
 }
-    .content h1{
-    font-size: 150px;
+.content h1{
+    font-size: 15vh;
     color: aliceblue;
     font-weight: 600;
 }
